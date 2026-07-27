@@ -1,0 +1,20 @@
+#!/bin/sh
+
+txt="/mnt/d/bin/count.txt"
+
+count1=`cat ${txt}`
+count1=`expr $count1 + 1`
+count2=`echo '10000'`
+if [ $count1 =  $count2 ]
+then
+  echo 0 > ${txt}
+  echo '0' | tr -d '\r\n'
+else
+  count1=`echo ${count1}`
+  echo $count1 | tr -d '\r\n'
+  echo $count1 > ${txt}
+fi
+
+
+
+

@@ -1,0 +1,8 @@
+#!/bin/sh
+
+
+today && echo 'No' | rdelete && count 
+
+
+
+

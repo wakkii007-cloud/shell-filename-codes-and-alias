@@ -1,0 +1,10 @@
+#!/bin/sh
+
+
+today=$(date "+%Y%m%d")
+
+today=`echo "${today}"`
+
+echo $today 
+
+
