@@ -1,6 +1,6 @@
-#!/bin/sh
+#!/usr/bin/sh
 
-txt="/mnt/d/bin/count.txt"
+txt="/home/wakkii/shell-filename-codes-and-alias/count.txt"
 
 count1=`cat ${txt}`
 count1=`expr $count1 + 1`

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/sh
 
 
 today=$(date "+%Y%m%d")

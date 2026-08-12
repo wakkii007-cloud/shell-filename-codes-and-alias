@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/sh
 
 
 tr -d '\r\n'
