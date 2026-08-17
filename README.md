@@ -1,8 +1,8 @@
 # shell-python-codes
 commmand-codes
 we are helpful for filename on today and numbers.
-"$(topname)temp.txt"
-"$(topname2)temp.txt"
+touch "$(topname)temp.txt"
+touch "$(topname2)temp.txt"
 
 # some more ls aliases
 alias ll='ls -alF'
